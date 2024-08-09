@@ -1,0 +1,82 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(66, 66, 66);
+}
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(62, 62, 62);
+    box-shadow: -1px 4px 8px 0px rgba(0, 0, 0, 0.217);
+}
+
+.header-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-info__last {
+    display: flex;
+    align-items: center;
+}
+
+.header-info__last a {
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.355);
+    padding: 15px 35px;
+    border-radius: 134px;
+    font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+    margin-right: 30px;
+}
+
+nav a:last-of-type {
+    margin-right: 0;
+}
+
+h1 {
+    color: #fff;
+}
+
+/* CARDS */
+
+.site-cards .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px 10px;
+    gap: 30px;
+}
+
+.site-cards {
+    padding: 100px 0;
+}
+
+.site-card {
+    width: 250px;
+    background-color: rgb(97, 97, 97);
+    color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 10px 7px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.site-card__img {
+    width: 100%;
+}
+
+.text-wrapper {
+    padding: 10px 20px;
+}
